@@ -1,3 +1,4 @@
+package jobsheet2;
 public class ContohVariabel22{
     public static void main(String args[]){
         String salahSatuHobySayaAdalah = "Bermain";
