@@ -7,5 +7,6 @@ Angka unik
 Studi kasus 1 :
 - hargaPerCup = 15000 + (22 mod 6) × 1000 = 19000
 - Syarat minimal belanja untuk diskon = 80000 + (22 mod 5) × 10000 = 100000
-- Persentase diskon = 5 + (P mod 6)  % = 9%
+- Persentase diskon = 5 + (22 mod 6)  % = 9%
 Studi kasus 2 :
+P genap = "BELMAWA", dokumen = 4, peringkat juara = (22 mod 3) + 1 = 2 
