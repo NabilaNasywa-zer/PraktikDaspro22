@@ -1,5 +1,6 @@
 package jobsheet7;
 
+//15 + (22 mod 10) = 17
 import java.util.Scanner;
 
 public class siakadWhile22 {
@@ -7,7 +8,7 @@ public class siakadWhile22 {
         Scanner sc = new Scanner(System.in);
 
         int jml, nilai, i = 0;
-        System.out.println("Masukkan jumlah mahasiswa: ");
+        System.out.print("Masukkan jumlah mahasiswa: ");
         jml = sc.nextInt();
 
         while (i<jml) {
@@ -21,6 +22,7 @@ public class siakadWhile22 {
 
             if (nilai > 80 && nilai <= 100) {
                 System.out.println("Nilai mahasiswa ke-"+(i+1)+" adalah A");
+                System.out.println("Bagus, pertahankan nilainya!");
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-"+(i+1)+" adalah B+");
             } else if (nilai > 65 && nilai <= 73) {
