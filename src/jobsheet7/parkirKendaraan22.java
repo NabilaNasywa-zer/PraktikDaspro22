@@ -10,10 +10,10 @@ public class parkirKendaraan22 {
         int jenis, durasi, total=0;
 
         do {
-            System.out.println("Masukkan jenis kendaraan: ");
+            System.out.print("1. mobil\n2. motor\n0. keluar\nMasukkan jenis kendaraan: ");
             jenis = zer.nextInt();
             if (jenis==1 || jenis==2) {
-                System.out.println("Masukkan durasi: ");
+                System.out.print("Masukkan durasi: ");
                 durasi = zer.nextInt();
                 if (jenis==1) {
                     total+=durasi*3500;
