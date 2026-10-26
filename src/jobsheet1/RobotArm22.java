@@ -1,3 +1,4 @@
+package jobsheet1;
 public class RobotArm22 {
     public static void main(String[] args) {
         System.out.println("setelah langkah 1: Nampan A = kosong , Nampan B = bola Bulan, Nampan C = bola bintang");

@@ -1,6 +1,7 @@
 /**
  * Latihan22
  */
+package jobsheet1;
 public class Latihan22 {
 
     public static void main(String[] args) {
