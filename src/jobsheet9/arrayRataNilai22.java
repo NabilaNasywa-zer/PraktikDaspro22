@@ -21,9 +21,11 @@ public class arrayRataNilai22 {
 
         int tertinggi = nilaiMhs[0];
         int terendah = nilaiMhs[0];
+        int lulus = 0;
         for (int i = 0; i < nilaiMhs.length; i++) {
             if (nilaiMhs[i] > tertinggi) tertinggi = nilaiMhs[i];
             if (nilaiMhs[i] < terendah) terendah = nilaiMhs[i]; 
+            if (nilaiMhs[i] > 70 ) lulus++;
         }
         String status;
         if (rata2 >= 85) {
@@ -36,5 +38,6 @@ public class arrayRataNilai22 {
         System.out.println("Nilai tertinggi: " + tertinggi);
         System.out.println("Nilai terendah: " + terendah);
         System.out.println("Predikat kelas : " + status);
+        System.out.println("Mahasiswa lulus : " + lulus);
     }
 }
