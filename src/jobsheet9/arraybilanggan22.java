@@ -8,10 +8,10 @@ public class arraybilanggan22 {
         
     int[] bil = new int[4];
     
-    bil[0] = 5;
-    bil[1] = 13;
-    bil[2] = -7;
-    bil[3] = 17;
+    bil[0] = 22;
+    bil[1] = 30;
+    bil[2] = -2;
+    bil[3] = 27;
     
     for (int i = 0; i < bil.length; i++) {
         System.out.println("bil [" + i + "] = " + bil[i]);
