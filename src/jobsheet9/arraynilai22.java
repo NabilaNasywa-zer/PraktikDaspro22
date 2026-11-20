@@ -15,7 +15,12 @@ public class arraynilai22 {
         } 
 
         for (int i = 0; i < nilaiAkhir.length; i++) { 
-        String status = (nilaiAkhir[i] > 70) ? "LULUS" : "TIDAK LULUS"; 
+        String status;
+        if (nilaiAkhir[i] > 70) {
+            status = "LULUS";
+        } else {
+            continue;
+        }
         System.out.println("Mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (" + 
         status + ")"); 
         } 
